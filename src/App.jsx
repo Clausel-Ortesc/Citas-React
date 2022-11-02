@@ -1,17 +1,18 @@
 import Header from "./componentes/header"
-import Header2 from "./componentes/header2"
-import Header3 from "./componentes/header3"
-import Header4 from "./componentes/header4"
+import ListadoPacientes from "./componentes/listadoPacientes"
+import Formulario from "./componentes/formulario";
+import Error from "./componentes/Error"
+
 
 function App() {
 
   return (
     <>
-      <Header />
-      <Header2/>
-      <Header3/>
-      <Header4/>
+      <Header/>
+      <Formulario/>
+      <ListadoPacientes/>      
+      <Error/>
     </>
-  )
+  );
 }
 export default App
